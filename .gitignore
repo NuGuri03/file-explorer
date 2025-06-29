@@ -1,0 +1,31 @@
+# 빌드/컴파일 산출물
+*.o
+*.obj
+*.so
+*.a
+*.out
+*.exe
+*.dll
+*.dylib
+
+# 임시 파일/백업 파일
+*~
+*.swp
+.fuse_hidden*
+.nfs*
+.DS_Store
+
+# CMake/Make 빌드 폴더
+/build/
+/CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VSCode 설정
+.vscode/
+.history/
+
+# 기타
+.Trash-*
+.directory
