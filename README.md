@@ -68,7 +68,6 @@ FileExplorer/
   - C++17 지원 컴파일러 (`g++`, `clang++`)
   - `cmake` (>=3.14)
   - **Qt 6** (또는 5) 개발 패키지  
-  - **ncurses** (CLI UI용, 옵션)  
   - 기타: `git`, `make`, `pkg-config` 등
 
 ---
