@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+#include "commands/ls.h"
+
 using namespace std;
 
 void print_help() {}
@@ -23,7 +25,14 @@ int main(int argc, char* argv[]) {
         }
     }
 
-    cout << "start File Explorer\n";
-    // TODO: 파일 탐색 기능 시작
+    // TEST
+    printf("ls test: \n");
+    ls();
+
+    // cout << "start File Explorer\n";
+    // // TODO: 파일 탐색 기능 시작
+
+
+
     return 0;
 }
