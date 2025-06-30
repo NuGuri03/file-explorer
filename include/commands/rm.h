@@ -2,7 +2,7 @@
 extern "C" {
 #endif
 
-    void rm(const char **arg);
+void rm(const char* path);
 
 #ifdef __cplusplus
 }

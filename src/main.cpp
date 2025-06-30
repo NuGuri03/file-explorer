@@ -2,6 +2,9 @@
 #include <string>
 
 #include "commands/ls.h"
+#include "commands/cd.h"
+#include "commands/mkdir.h"
+#include "commands/rm.h"
 
 using namespace std;
 
@@ -24,15 +27,6 @@ int main(int argc, char* argv[]) {
             return 0;
         }
     }
-
-    // TEST
-    printf("ls test: \n");
-    ls();
-
-    // cout << "start File Explorer\n";
-    // // TODO: 파일 탐색 기능 시작
-
-
 
     return 0;
 }

@@ -2,7 +2,7 @@
 extern "C" {
 #endif
 
-void cd(const char* path);
+void cd(const char* __path);
 
 #ifdef __cplusplus
 }
