@@ -1,1 +1,1 @@
-#include "rm.h"
+#include "commands/rm.h"
