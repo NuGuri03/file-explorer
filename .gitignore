@@ -21,6 +21,7 @@
 CMakeCache.txt
 cmake_install.cmake
 Makefile
+FileExplorer
 
 # VSCode 설정
 .vscode/
